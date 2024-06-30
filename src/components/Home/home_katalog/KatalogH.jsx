@@ -4,6 +4,9 @@ import { FaArrowRightLong } from "react-icons/fa6";
 import { FaStar } from "react-icons/fa6";
 import crad1 from '../../../assets/card1.svg'
 import crad4 from '../../../assets/card4.svg'
+import img_card from '../../../assets/img_card.svg'
+import img_card2 from '../../../assets/img_card2.svg'
+import img_card3 from '../../../assets/img_card3.svg'
 import { HiOutlineArrowLongLeft,HiOutlineArrowLongRight } from "react-icons/hi2";
 
 
@@ -87,6 +90,12 @@ function KatalogH() {
                     <button><HiOutlineArrowLongLeft className=''/></button>
                     <button><HiOutlineArrowLongRight className=''/></button>
                 </div>
+            </div>
+            <div className="img_card">
+                <img src={img_card} alt="" />
+                <img src={img_card2} alt="" />
+                <img src={img_card3} alt="" />
+                <img src={img_card} alt="" />
             </div>
         </div>
     </div>
