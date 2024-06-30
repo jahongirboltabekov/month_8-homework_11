@@ -33,3 +33,37 @@
         }
     }
 }
+
+.blog_cards{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    margin-bottom: 100px;
+    gap: 20px;
+
+    .blog_card{
+        border-bottom: 1px solid #e6e6e6;
+        img{
+            margin-bottom: 30px
+        }
+
+        h4{
+            font-family: 'Manrope';
+            font-size: 20px;
+            font-weight: 700;
+            line-height: 26px;
+            margin-bottom: 24px;
+            display: flex;
+            gap: 70px;
+            max-width: 420px;
+            padding-right: 10px;
+        }
+
+        p{
+            font-family: 'Manrope';
+            font-size: 14px;
+            font-weight: 500;
+            line-height: 15px;
+            margin-bottom: 32px;
+        }
+    }
+}
