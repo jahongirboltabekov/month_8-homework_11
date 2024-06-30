@@ -1,5 +1,6 @@
 import { Route, Routes } from 'react-router-dom'
 import './App.css'
+import Footer from './components/Home/footer/Footer'
 import Header from './components/Home/header/Header'
 import Navbar from './components/Home/Navbar/Navbar'
 import About from './pages/About'
@@ -25,6 +26,7 @@ function App() {
         <Route path='/guarantee' element={<Guarantee/>} />
         <Route path='/return' element={<Return/>} />
       </Routes>
+      <Footer/>
     </>
   )
 }
